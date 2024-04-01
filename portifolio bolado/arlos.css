@@ -1,0 +1,101 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: "arial", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: gray;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgray;    /* color of the scroll thumb */
+    border-radius: 5px;
+  }
+  
+  header {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    overflow: hidden;
+    background-color: rgb(83, 83, 83);
+  }
+  
+  .navbar {
+    text-align: left;
+    float: right;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(69, 69, 69);
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 14px 16px;
+  }
+  
+  .link:first-child {
+    border-left: 1px solid white;
+  }
+  
+  .link:last-child {
+    border-right: none;
+  }
+  
+  #portifolio{
+    float: left;
+  }
+  
+  .home{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color:white;
+    padding: 10px 12px;
+  }
+  .sideBar{
+    float: left;
+    display: block;
+    background-color: gray;
+    height: 100%;
+    width: 130px;
+    position: fixed;
+  }
+
+  .button{
+    width: 100%;
+    background-color: gray;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 0;
+  }
+
+  .button:hover{
+    background-color: rgb(69, 69, 69);
+  }
+
+  .sideBar li{
+    float: left;
+  }
+  .barItem{
+    text-decoration: none;
+    color: white;
+  }
+
+  .materia{
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .materia:hover{
+    background-color: rgb(69, 69, 69);
+  }
